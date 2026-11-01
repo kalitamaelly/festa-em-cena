@@ -55,6 +55,8 @@ Foram encontrados exemplos de pedidos com status "Concluído", mas sem data de e
 
 Nenhuma data ou status foi inventado ou alterado.
 
+No total, foram identificados 109 pedidos com status "Cancelado". Todos eles estavam sem data de entrega.
+
 ### 3.4. Tratamento das datas de venda
 
 As datas foram convertidas utilizando o formato `%Y-%m-%d %H:%M:%S`.
