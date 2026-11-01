@@ -12,3 +12,16 @@ print(df.columns.tolist())
 
 print("\nPRIMEIROS 3 REGISTROS:")
 print(df.head(3))
+
+
+# Exibir informações sobre a estrutura da base
+print("\nESTRUTURA DOS DADOS:")
+df.info()
+
+# Exibir quantidade de linhas e colunas
+print("\nDIMENSÕES DA BASE:")
+print(df.shape)
+
+# Contar valores ausentes em cada coluna
+print("\nVALORES AUSENTES POR COLUNA:")
+print(df.isnull().sum())
